@@ -458,7 +458,6 @@ section .title::after{
 }
 .contact .contact-content .row{
     display: inline-block;
-   /* display: flex;*/
     height: 65px;
     align-items: center;
     cursor: pointer;
@@ -665,6 +664,13 @@ footer span a:hover{
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
+    }
+    .contact .contact-content .row{
+        display: flex;
+    }
+    .contact .contact-content .info .head{
+        position: relative;
+        top:0px;
     }
     .contact .right form .fields{
         flex-direction: column;
