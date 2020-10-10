@@ -457,12 +457,15 @@ section .title::after{
     margin: 10px 0;
 }
 .contact .contact-content .row{
-    display: flex;
+    display: inline-block;
+   /* display: flex;*/
     height: 65px;
     align-items: center;
+    cursor: pointer;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin:0px 30px;
+    padding: 10px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -470,9 +473,8 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
-}
-.contact .contact-content .info .sub-title{
-    color: #333;
+    position: relative;
+    top:-37px;
 }
 .contact .right form .fields{
     display: flex;
