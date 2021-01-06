@@ -1,2 +1,2 @@
-# portfolio
-https://tanmayarora11.github.io/portfolio/portfolio/portfolio.html
+# portfolio website #
+https://tanmayarora11.github.io/
